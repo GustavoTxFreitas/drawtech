@@ -1,0 +1,37 @@
+#github {
+    top: 0;
+    right: -100px;
+    position: fixed;
+
+    height: 57px;
+    width: 160px;
+    border-radius: 0 0 0 30px;
+
+    color: #e3e3e3;
+    text-decoration: none;
+    background-color: #131314;
+
+    display: flex;
+    align-items: center;
+
+    transition: right 0.5s;
+}
+
+#github:hover{
+    right: 0;
+}
+
+#github:hover .text{
+    max-width: 100%;
+}
+
+.text {
+    max-width: 0;
+    overflow: hidden;
+    margin-bottom: 3px;
+}
+
+.icon {
+    width: 50px;
+    margin-bottom: 4px;
+}
