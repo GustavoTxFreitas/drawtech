@@ -1,5 +1,5 @@
 html, body{
-  background-color: #131314;
+  background-color: #e3e3e3;
 }
 
 header {
@@ -11,11 +11,12 @@ h1 img {
   transform: rotate(-46deg);
 }
 
-section{
-  padding-top: 2em;
+#home, #project, #gallery, #aboutus, #contacts{
+  padding: 2em 1em 4em;
 }
-#home{
-  background-color: #e3e3e3;
+
+#gallery, #contacts{
+  background-color: #131314;
 }
 
 #carouselExampleControls{
